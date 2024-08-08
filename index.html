@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Hello World - HTMX</title>
+	<script src="https://unpkg.com/htmx.org"></script>
+</head>
+
+<body>
+	<div hx-get="/path-to-your-server-method" hx-trigger="click">
+		<button type="button">Click me</button>
+		<div hx-target="this" hx-swap="innerHTML"></div>
+	</div>
+</body>
+
+</html>
